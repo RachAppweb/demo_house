@@ -1,0 +1,38 @@
+.card {
+    display: inline-block;
+    min-width: 200px;
+    height: 200px;
+    line-height: 100px;
+    margin-right: 4px;
+    text-align: center;
+    box-shadow: 1px -3px 6px 3px cadetblue;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.card img {
+    object-fit: contain;
+    width: -moz-fit-content;
+    width: 96px;
+    height: 97px;
+}
+.scrolling{
+    margin-top: 7px;
+    overflow-x: auto;
+    display: flex;
+    /* -webkit-overflow-scrolling: touch; */
+   
+}
+.scrolling::-webkit-scrollbar{
+    width: 0;
+}
+.Categname {
+    text-align: center;
+}
+.title {
+    margin-top: -86px;
+}
+.info {
+    margin-top: -50px;
+    justify-content: space-around;
+    display: flex;
+}

@@ -1,0 +1,148 @@
+.navbarContainer{
+    display: flex;
+    width:100%;
+    height: 50px;
+    background-color: cadetblue;
+    align-items: center;
+    /* position: sticky; */
+    top: 0;
+
+}
+.Home{
+    color: white;
+}
+.Place1{
+    color:white;
+}
+a{
+    text-decoration: none;
+}
+.logob {
+    font-size: x-large;
+}
+.fa-solid, .fas {
+    font-weight: 900;
+    position: absolute;
+    margin-left: 1%;
+    margin-top: 5px;
+
+}
+.sear {
+    border: none;
+    width: 70%;
+    margin-left: 7%;
+}
+.sear:focus {
+    outline: none;
+    
+}
+.pic {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    margin-right:15px ;
+    border-radius: 20px;
+}
+.profile{
+    display:flex
+}
+.logo{
+    flex: 2;
+    margin-left: 18px;
+}
+.search {
+    flex: 5 1;
+    background-color: white;
+    height: 56%;
+    border-radius: 10px;
+    margin-right: 16%;
+}
+::placeholder{
+    margin-left:6px;
+}
+.navright{
+    flex: 4;
+    display: flex;
+    justify-content: space-around;
+}
+.elements{
+    justify-content: space-around;
+    display: flex;
+    flex: 1;
+    color:white;
+    font-weight: 900;
+    font-size: 14px;
+    align-items: center;
+
+}
+.nav-btn{
+    margin-right: 39px;
+    padding: 0px;
+    cursor: pointer;
+    border: none;
+    color:black;
+    visibility: hidden;
+    opacity: 0;
+    font-size: 1.8rem;
+    margin-bottom: 25px;
+}
+.close{
+    visibility: hidden;
+}
+@media only screen and (max-width:1024px){
+    .nav-btn{
+        visibility: visible;
+        opacity: 1;
+        padding: 0px;
+
+
+    }
+    .navright {
+        top: 0;
+        position: fixed;
+       
+        right: 0;
+        height: 50%;
+        width: 50%;
+        align-items: center;
+        justify-content: center;
+        gap: 1;
+        background-color: cadetblue;
+        transition: 2s;
+        transform: translate(100vh);
+        z-index: 1;
+        flex-direction: column-reverse;
+        margin-top: 5px;
+        border-radius: 8px;
+    }
+    .responsive{
+        transform: none;
+    }
+    .search {
+        flex: 3 ;
+        background-color: white;
+        height: 56%;
+        border-radius: 10px;
+        margin-right: 16%;
+    }
+    .elements {
+        display: grid;
+        gap: -9px;
+        padding: -10px;
+        align-content: space-evenly;
+        margin-bottom: 33px;
+    }
+    button.nav-btn.close {
+        top: 0;
+        right: 0;
+        position: absolute;
+    }
+    .pic {
+        width: 40px;
+        height: 40px;
+        display: flex;
+        margin-right: 15px;
+        border-radius: 20px;
+        margin-top: 15%;
+    }
+}

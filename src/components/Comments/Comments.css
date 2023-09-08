@@ -1,0 +1,23 @@
+.imga {
+    width: 40px;
+    height: 40px;
+    border-radius: 18px;
+}
+.tes {
+    display: flex;
+    font-size: 14px;
+    margin-left: 34px;
+    margin-top: 22px;
+}
+
+.thecom {
+    margin-left: 20px;
+    font-size: small;
+    box-shadow: 4px 4px 7px 6px cadetblue;
+    width: 62%;
+    padding: 4px;
+    border-radius: 7px;
+}
+.text {
+    text-align: center;
+}

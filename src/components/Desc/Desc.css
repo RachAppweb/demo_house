@@ -1,0 +1,16 @@
+.desc {
+    text-align: center;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.btntype {
+    font-weight: 600;
+    background: cadetblue;
+    color: white;
+    padding: 3px;
+    border-radius: 7px;
+}
+.btntype:hover{
+     border: none;
+}

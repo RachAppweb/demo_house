@@ -1,0 +1,63 @@
+.footer{
+    height: 380px;
+    width: 100%;
+    bottom: 0;
+    background-color: rgb(62, 61, 61);
+}
+.social {
+    text-align: center;
+    font-size: x-large;
+    
+    color: white;
+}
+i#icon {
+    margin-left: 22px;
+    /* background-color: black; */
+    /* padding: 0px; */
+}
+.fa-facebook:hover {
+  color: rgb(34, 34, 245) !important;
+  background-color: white !important;
+}
+.fa-linkedin:hover {
+    color: rgb(34, 34, 245) !important;
+    background-color: white !important;
+    padding: 1px;
+  }
+  .fa-github:hover {
+    color:black !important;
+    background-color: white !important;
+  }
+  .pages {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+.things {
+    display: flex;
+    margin-top: -11px;
+    color: black !important;
+}
+.fologo {
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    margin-top: 0%;
+    color: white;
+}
+@media only screen and (max-width:1024px){
+
+  .fa-facebook:hover {
+    color: rgb(34, 34, 245) !important;
+    background-color: white !important;
+  }
+  .fa-linkedin:hover {
+      color: rgb(34, 34, 245) !important;
+      background-color: white !important;
+      padding: 1px;
+    }
+    .fa-github:hover {
+      color:black !important;
+      background-color: white !important;
+    }
+}
