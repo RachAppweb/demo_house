@@ -3,7 +3,7 @@ import "./Cards.css"
 // import { pic1,pic2,pic3 } from '../assets/Pics';
 
 const Cards = (props) => {
-   console.log(props.dt[0].name)
+  
     return ( 
         <> 
         <div className="Categname">
