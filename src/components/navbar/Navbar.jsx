@@ -2,6 +2,8 @@ import React, { useRef } from 'react';
 import "../navbar/Navbar.css"
 import { villa } from '../assets/Pics';
 import { Link } from 'react-router-dom';
+import { HashLink as Li } from 'react-router-hash-link';
+
 const Navbar = () => {
     const navRef=useRef()
     const showNavbar=()=>{
@@ -21,7 +23,7 @@ const Navbar = () => {
                 <div className="elements">
                   <Link to="/"><span className="Home">Home</span></Link>  
                    <Link to='/Testi'><span className="Place1">Testimonials</span></Link> 
-                   <a href="#icon"><span className="Place1">About</span></a>
+                   <Li to='#icon'> <span className="Place1">About</span></Li>
 
                 </div>
                 
